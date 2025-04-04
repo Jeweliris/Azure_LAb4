@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-image: url("2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 20px;
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.8), rgba(48, 48, 48, 0.8));
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+header .navbar {
+  display: flex;
+  align-items: center;
+  max-width: 1350px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.navbar .logo {
+  color: #fff;
+  font-size: 2.1rem;
+  font-weight: 600;
+  margin-left: 60px;
+  letter-spacing: 2px;
+  transition: color 0.3s;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.navbar .logo span {
+  color: #c06b3e;
+  font-size: 2.5rem;
+}
+
+.navbar .menu-links {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+.navbar a:hover {
+  color: #c06b3e;
+  transform: scale(1.1);
+}
+
+ul li {
+  position: relative;
+  list-style: none;
+  display: inline-block;
+  padding: 20px 20px;
+}
+
+ul li a {
+  display: block;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: georgia;
+  color: black;
+}
+
+.hero-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.hero-section .content {
+  color: #fff;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.hero-section .content h1 {
+  font-size: 3rem;
+  max-width: 600px;
+}
+
+.hero-section .content p {
+  font-weight: 300;
+  margin-top: 15px;
+  max-width: 600px;
+}
+
+.hero-section .content button {
+  background: #fff;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 12px 30px;
+  margin-top: 38px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.hero-section .content button:hover {
+  color: #fff;
+  background: #c06b3e;
+}
+
+.menu-links {
+  color: inherit;
+}
+
+.text-container {
+  margin-top: 50px;
+}
